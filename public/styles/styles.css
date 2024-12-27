@@ -1,0 +1,96 @@
+:root {
+    --yellow: #FFB800;
+    --black: #000;
+    --white: #FFF;
+  }
+
+  main {
+    background: var(--yellow);
+    padding: 8rem 2rem;
+    text-align: left;
+    height: 100vh; 
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    padding: 2rem;
+    background: var(--white);
+  }
+  
+  nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+   }
+   
+   nav li {
+    margin: 0;
+    padding: 0;
+   }
+   
+   nav a {
+    text-decoration: none;
+    color: var(--text);
+   }
+  
+  main {
+    background: var(--yellow);
+    padding: 8rem 2rem;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: normal;
+  }
+  
+  footer {
+    background: var(--white);
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+  }
+  
+  .social-media {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+   }
+   
+   .social-media a {
+    text-decoration: none;
+    color: var(--text);
+   }
+   
+   footer .container {
+    text-align: center;
+    padding: 2rem;
+   }
+
+
+  @media (max-width: 768px) {
+    h1 { font-size: 3rem; }
+    h2 { font-size: 2rem; }
+  }
